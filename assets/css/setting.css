@@ -1,0 +1,23 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+html , body{
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+}
+:root{
+  --header:170px;
+}
+@font-face{
+  font-family: Yekan;
+  src: url('../fonts/IRANYekanWeb.eot');
+  src: url('../fonts/IRANYekanWeb.ttf');
+  src: url('../fonts/IRANYekanWeb.woff');
+  src: url('../fonts/IRANYekanWeb.woff2');
+}
